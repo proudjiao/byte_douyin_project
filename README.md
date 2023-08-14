@@ -303,3 +303,13 @@ func (v *Video2Image) ExecCommand(cmd string) error {
 cd .\byte_douyin_project\
 go run main.go
 ```
+
+***模拟机注意事项***
+
+此repo只提供后端，完整运行需要下载前端apk
+
+若在Android Studio上运行该模拟器，要链接至后端需要双击右下角“我”，并设置baseURL为服务器地址
+
+(If you want to refer to the computer which is running the Android simulator, use the IP address 10.0.2.2 instead)
+
+
